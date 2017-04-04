@@ -9,8 +9,10 @@ If it has an MX, A, or AAAA record, the domain part is considered valid.
 
 Usage:
 
-```if (EmailValidator.isValidEmailAddress("some.thing+other@gmail.com")) {
+```
+if (EmailValidator.isValidEmailAddress("some.thing+other@gmail.com")) {
    // Do a happy dance
 } else {
    // Sad face.
-}```
+}
+```
